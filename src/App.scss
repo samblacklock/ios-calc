@@ -1,13 +1,17 @@
+@import '_variables';
+
 .app {
   align-items: center;
-  color: #FFF;
+  color: $white;
   display: flex;
   height: 100%;
   justify-content: center;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .calculator {
-  background: #000;
-  height: 103.93742mm;
-  width: 58.43558mm; }
+  background: $black;
+  height: $height;
+  width: $width;
+}

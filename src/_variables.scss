@@ -1,0 +1,23 @@
+// iPhone 8
+
+$screen-height: 1334;
+$screen-width: 750;
+$screen-dpi: 326;
+
+// Dimensions
+
+@function getSize($dim) {
+  @return ($dim / $screen-dpi) * 25.4mm;
+}
+
+$height: getSize($screen-height);
+$width: getSize($screen-width);
+$row-height: $height / 7;
+
+// Colors
+
+$white: #FFF;
+$orange: #EC9848;
+$light-grey: #A6A6A6;
+$dark-gray: #333333;
+$black: #000;
