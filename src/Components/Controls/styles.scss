@@ -1,0 +1,9 @@
+@import '../../_variables';
+
+.control-panel {
+  .button-row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: $row-height;
+  }
+}
